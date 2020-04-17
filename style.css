@@ -487,7 +487,7 @@
     transition: .5s;
 }
 .environment-body{
-    background: linear-gradient(-20deg,#5068ac,#28bbb8) fixed center center / 100% 100%;
+    background: linear-gradient(-20deg,#627bbe,#37cecb) fixed center center / 100% 100%;
 }
 .environment-wrap{
     width: 1200px;
@@ -501,6 +501,8 @@
 .environment-pic img{
     width: 100%;
     vertical-align: middle;
+    height: 350px;
+    object-fit: cover;
 }
 .environment-pic{
     width: 55%;
@@ -526,14 +528,88 @@
     margin-right: -10%;
 }
 .environment-item:nth-child(1) .environment-txt{
-    background-color: rgb(245, 198, 206);
+    background-color: rgba(245, 198, 206, .8);
 }
 .environment-item:nth-child(2) .environment-txt{
-    background-color: rgb(180, 241, 180);
+    background-color: rgba(180, 241, 180, .8);
 }
 .environment-item:nth-child(3) .environment-txt{
-    background-color: rgb(243, 216, 167);
+    background-color: rgba(243, 216, 167, .8);
 }
 .environment-item:nth-child(4) .environment-txt{
-    background-color: rgb(177, 177, 247);
+    background-color: rgba(177, 177, 247, .8);
+}
+.about-pic img{
+    height: 300px;
+    object-fit: cover;
+}
+.contact-wrap{
+    width: 1200px;
+    margin: 200px auto 50px;
+    display: flex;
+}
+.map{
+    margin-right: 50px;
+}
+.contact-div{
+    border: double 3px #fff;
+    background-color: rgb(182, 231, 182);
+    color: #333;
+    width: 600px;
+    height: 196px;
+    margin-top: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 35px;
+}
+.contact-div h1{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.contact-div .fas{
+    margin-right: 5px;
+}
+.contact-table{
+    border: 1px dashed #fff;
+    display: table;
+    background-color: #285E6E;
+    width: 500px;
+    line-height: 20px;
+    font-size: 18px;
+}
+.contact-row{
+    display: table-row;
+}
+.contact-cell {
+    display: table-cell;
+    border-bottom: 1px dashed #fff;
+    color: #fff;
+    padding: 20px 10px;
+    margin: 0 5px;
+}
+#user-name{
+    width: 50%;
+}
+#mobile,#email{
+    width: 80%;
+}
+#user-name,#mobile,#email,#type,#more,.submit-btn{
+    font-size: 18px;
+}
+#more {
+    height: 200px;
+    width: 90%;
+}
+.contact-cell .more{
+    line-height: 247px;
+}
+.submit-btn{
+    padding: 5px;
+}
+.contact-body{
+    background: linear-gradient(-20deg,rgb(110, 110, 235),rgb(182, 231, 182))
+}
+.contact-cell:nth-child(odd) {
+    text-align: right;
 }
