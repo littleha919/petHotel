@@ -48,11 +48,11 @@
     display: flex;
     justify-content:center;
     background-color: plum;
-    height: 440px;
+    height: 540px;
 }
-.about-pic, .about-txt{
+.about-pic{
     width: 500px;
-    margin: 80px 20px;
+    margin: 210px 20px;
 }
 .about-txt{
     color: #333;
@@ -62,6 +62,7 @@
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
+    margin-top: 180px;
 }
 .about-txt p{
     font-size: 18px;
@@ -653,4 +654,7 @@
 }
 .contact-cell:nth-child(odd) {
     text-align: right;
+}
+select,option{
+    color: #fff;
 }
